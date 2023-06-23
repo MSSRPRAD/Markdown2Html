@@ -1,2 +1,3 @@
-# Markdown2Html
-Python Script to parse markdown and convert to a HTML file
+Ideas that I had that pradyumna rejected
+- Sequential Order
+- Buffer

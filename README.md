@@ -3,7 +3,12 @@ Making a simple Markdown Parser for fun!
 
 # Example Usage:
 `python convert.py markdown.md output.html`
+`python convert.py`
 
-Ideas that I had that pradyumna rejected
-- Sequential Order
-- Buffer
+# Things To Add
+
+# Things Working
+- Bold
+- Italics
+- Line Break
+- Headings

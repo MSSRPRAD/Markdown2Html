@@ -1,190 +1,39 @@
-<h2>Note: </h2>
-The code for the assignment can be found in the git repository at https://github.com/Polaris66/ML-models
-
+<html>
+<body>
+Bold Test
 <br>
-<h1>ML Models</h1>
-Code for the First Assignment of the Machine Learning Course (2023 - Sem 2) Assignments. 
-223456Have Implemented Different ML Models using numpy and pandas.
-
+I just love <strong>bold text</strong>.
 <br>
-
-<ul>
-<li>el1</li>
-<li>el2</li>
-<li>el3</li>
-
-</ul>
-<h3>Contributers:</h3>
-<h3>Labels</h3>
-Malignant = 1
-
+I just love <strong>bold text</strong>.
 <br>
-Benign = -1 for perceptron, FLDA
-
+<strong>b</strong>
 <br>
-Benign = 0 for logistic
-
+<strong>b</strong>
 <br>
-<h1>Perceptron</h1>
-After 10000 epochs, data gives 90-92% accuracy, 90-94% precision and 85-90% recall when tested using average of 10 different train-test splits.
-
+Love<strong>is</strong>bold
 <br>
-It is expected that even after further iterations Perceptron will not outperform normalized data.
-
+Love<strong>i</strong>bold
 <br>
-After normalizing data, the algorithm converges under 10000 epochs giving 94% accuracy, 92% precision and 94% recall.
-
+Italics Test
 <br>
-Rearranging the feature order does not affect the result. The weight vector appears similarly rearranged.
-
+Italicized text is the <em>cat's meow</em>.
 <br>
-It is found that the data is linearly seperable when normalized.
-
+Italicized text is the <em>cat's meow</em>.
 <br>
-<h1>Fischer's Linear Discriminant Analysis</h1>
-Fischer's LDA does not require training and directly gives 95% accuracy, 95% precision and 91% recall on normalized and imputed data.
+Italicized text is the <em>c</em>.
 
-<br>
-Rearranging the feature order does not affect the result. The weight vector appears similarly rearranged.
+Italicized text is the <em>c</em>.
 
-<br>
-<h1>Logistic Regression</h1>
-After running for a 1000 epochs it gives maximum of 97% accuracy. It is expected to go even higher with more epochs.
-
-<br>
-<h2>Batch Gradient Descent</h2>
-Batch Gradient Descent shows a 74-89% accuracy, 63-89% precision and 76-81% recall with un-normalized data all decreasing with decrease in learning rate.
-
-<br>
-With normalized data, it gives 88-93% accuracy, 82-92% precision and 89-95% recall.
-
-<br>
-It is found with normalized data, increasing the learning rate for normalized data decreases the accuracy.
-
-<br>
-<h2>Stochastic Gradient Descent</h2>
-Stochastic Gradient Descent shows a 89-91% accuracy, 88-90% precision, 81-88% recall, all except precision decreasing with decrease in learning rate.
-
-<br>
-With normalized data, it gives 95-97% accuracy, 91-97% precision and 89-96% recall.
-
-<br>
-<h2>Mini-Batch Gradient Descent</h2>
-It shows 86-89% accuracy, 84-88% precision, 83-85% recall with raw data.
-
-<br>
-Shows 95-97% accuracy, 92-97% precision and 94-95% recall with normalized data.
-
-<br>
-<h2>Comparative Study</h2>
-After 10000 epochs (except for Fischer) following is the table of observations.
-
-<br>
-
-<table>
-
-<tr>
-<th>Models</th>
-<th>Accuracy</th>
-<th>Precision</th>
-<th>Recall</th>
-</tr>
-
-<tr>
-<td>Perceptron (PM1)</td>
-<td>0.9129032258064516</td>
-<td>0.9372268462822859</td>
-<td>0.8501716001250819</td>
-</tr>
-
-<tr>
-<td>Perceptron (PM2)</td>
-<td>0.9182795698924731</td>
-<td>0.9053517145473006</td>
-<td>0.8935902155966055</td>
-</tr>
-
-<tr>
-<td>Perceptron (PM3)</td>
-<td>0.9521505376344086</td>
-<td>0.9406453805430113</td>
-<td>0.9412902692543786</td>
-</tr>
-
-<tr>
-<td>Perceptron (PM4)</td>
-<td>0.9129032258064516</td>
-<td>0.9372268462822859</td>
-<td>0.8501716001250819</td>
-</tr>
-
-<tr>
-<td>Fischer (FLDM1)</td>
-<td>0.950531914893617</td>
-<td>0.952921328366989</td>
-<td>0.914998930095255</td>
-</tr>
-
-<tr>
-<td>Fischer (FLDM2)</td>
-<td>0.950531914893617</td>
-<td>0.952921328366989</td>
-<td>0.914998930095255</td>
-</tr>
-
-<tr>
-<td>Batch (LR1)</td>
-<td>0.9095744680851063</td>
-<td>0.9365079365079365</td>
-<td>0.9027777777777778</td>
-</tr>
-
-<tr>
-<td>Stochastic (LR1)</td>
-<td>0.9202127659574468</td>
-<td>0.9830508474576272</td>
-<td>0.8055555555555556</td>
-</tr>
-
-<tr>
-<td>Mini Batch (LR1)</td>
-<td>0.9414893617021277</td>
-<td>0.9420289855072463</td>
-<td>0.9444444444444444</td>
-</tr>
-
-<tr>
-<td>Batch (LR2)</td>
-<td>0.9095744680851063</td>
-<td>0.8666666666666667</td>
-<td>0.9027777777777778</td>
-</tr>
-
-<tr>
-<td>Stochastic (LR2)</td>
-<td>0.9680851063829787</td>
-<td>1.0</td>
-<td>0.9166666666666666</td>
-</tr>
-
-<tr>
-<td>Mini Batch (LR2)</td>
-<td>0.973404255319149</td>
-<td>1.0</td>
-<td>0.9305555555555556</td>
-</tr>
-
-</table>
-Logistic Regression Metrics have been run for 10000 epochs for only a specific learning rate and threshold and may vary based on others. However, it clearly outperforms both Fischer and Perceptron.
-
-<br>
-Hence, LR2 is the best performing model. 
-
-<br>
-This could be due to many reasons:
-
-<ul>
-<li>Logistic regression provides a probabilistic interpretation of the output.</li>
-<li>It is basically perceptron with a sigmoid function.</li>
-<li>Perceptron fails when data is not linearly seperable.</li>
-<li>Fischer fails when there are more features.</li>
+<h1># Heading level 1
+</h1>
+<h2>## Heading level 2
+</h2>
+<h3>### Heading level 3
+</h3>
+<h4>#### Heading level 4
+</h4>
+<h5>##### Heading level 5
+</h5>
+<h6>###### Heading level 6
+</h6></body>
+</html>

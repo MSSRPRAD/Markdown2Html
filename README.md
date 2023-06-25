@@ -3,7 +3,7 @@ Making a simple Markdown Parser for fun!
 
 # Example Usage:
 `python convert.py markdown.md output.html`
-`python convert.py`
+`python convert-regex.py`
 
 # Things To Add
 
